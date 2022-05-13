@@ -1,0 +1,362 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.topline{
+    height:3rem;
+    width: 100vw;
+    background-color: black;
+}
+.disc{
+    height: 3rem;
+    width: 100vw;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.navbar{
+    height:3rem;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    
+   
+
+}
+.navbar ul{
+    display: flex;
+    color: white;
+    /* margin-right: 14rem; */
+
+    
+}
+.navbar ul li{
+    list-style: none;
+    padding:1rem 2rem;
+    font-weight: bold;
+}
+.logo{
+    color: goldenrod;
+    font-size: 2.4rem;
+    padding-left: 5rem;
+
+}
+.btn{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 0 1.2rem;
+    margin: 10px;
+    height: 2rem;
+    
+}
+.whiteline{
+    height:10px;
+    width: 100%;
+    background-color: white;
+}
+.topcontainer{
+    height:50vh;
+    background-color: black;
+    color: white;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.box{
+    height:37vh;
+    width:25vw;
+    border: 2px solid goldenrod;
+    margin-left: 14rem;
+    margin-top: 2rem;
+    padding: 1rem;
+
+
+}
+.box h1{
+    font-size: 2rem;
+}
+.box p{
+    font-weight: bold;
+    padding: 1rem;
+}
+.box ul{
+    padding:0.4rem 1rem;
+    margin-left: 2rem;
+    font-size: 1rem;
+}
+.box ul li{
+    padding: 2px;
+}
+
+
+.sent{
+    height:4rem;
+    font-size: 4rem;
+    font-weight: bolder;
+    width: 70vw;
+    text-align: center;
+    padding: 1rem;
+    text-align: center;
+    
+    /* margin:0rem 10rem; */
+
+
+}
+.sent p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    margin-left: 6rem;
+    /* padding-left: 8rem; */
+
+
+    
+    
+}
+.container2{
+    height:50vh;
+    width: 100vw;
+    background-color: white;
+    color: black;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+
+}
+.box2{
+    height:37vh;
+    width:25vw;
+    /* border: 2px solid goldenrod; */
+    margin-left: 14rem;
+    margin-top: 5rem;
+    padding: 1rem;
+
+}
+.box2 h1{
+    font-size: 3rem;
+}
+.box2 p{
+    font-size: 1.4rem;
+    padding: 1rem 0rem;
+    font-weight: bolder;
+}
+.img2{
+    height:37vh;
+    /* margin:6rem 12rem; */
+    margin-top: 6rem;
+   
+}
+.box2 button{
+    margin: 1rem  5rem;
+    padding:0.4rem 1rem;
+}
+.footer{
+    height:30vh;
+    width:70vw;
+    display: flex;
+    flex-direction: column;
+    margin:10rem 4rem;
+    justify-content: center;
+
+}
+.footer h2{
+    font-size: 2.4rem;
+    text-align: center;
+}
+.footer h6{
+    font-size: 1.3rem;
+    text-align: center;
+}
+.img3{
+   /* margin-left: 8rem; */
+    margin-top: 4rem;
+}
+
+@media (max-width:1280px){
+    .container2{
+        height: 30vh;
+    }
+    .logo{
+        padding-left: 0.4rem;
+    }
+    .navbar ul li{
+        padding: 1rem 1rem;
+        font-size: 10px;
+    }
+    .box{
+        margin-left: 7rem;
+    }
+    .box h1{
+        font-size: 1.4rem;
+    }
+    .box p{
+        font-weight: bold;
+        padding:0rem 0.7rem;
+    }
+    .box ul{
+        padding:0.4rem 1rem;
+        margin-left: 2rem;
+        font-size: 0.8rem;
+    }
+    .sent p{
+        font-size: 2.4rem;
+
+    }
+    .footer{
+        margin: 10rem 6rem;
+    }
+    .footer h2{
+        font-size: 2rem;
+        text-align: center;
+        padding: 1rem;
+    }
+    .footer h6{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .box2{
+        margin-left: 5rem;
+        margin-top: 2rem;
+        width: 40vw;
+
+    }
+    .box2 h1{
+        font-size: 2rem;
+    }
+    .box2 p{
+        font-size: 1rem;
+        padding: 1rem 0rem;
+    }
+    .img1{
+        height: 40vh;
+        padding: 2rem;
+    }
+    .img2{
+        height:30vh;
+        margin-right: 3rem;
+
+    }
+    .box2 button{
+        margin: 1rem ;
+
+    }
+}
+@media (max-width:900px){
+    .logo{
+        font-size: 2rem;
+    }
+    .img1{
+        height:34vh;
+        margin-top: 2rem;
+        width:40vw;
+    }
+    .box{
+        width:40vw;
+        /* height: 20vh; */
+        /* margin-top: 1rem; */
+    }
+    .sent p{
+        font-size: 2rem;
+        margin-left: 3rem;
+    }
+    .img2{
+        width: 30vw;
+        height: 25vh;
+        margin-top: 3rem;
+    }
+    .box2 p{
+        font-size: 14px;
+        margin-top: 1rem;
+        padding: 0.1rem;
+        
+        /* margin-left: 1rem; */
+    }
+    .box2{
+        margin-left: 2rem;
+        height: 30vh;
+        width: 50vw;
+    }
+    .footer{
+        margin: 8rem 4rem;
+    }
+
+}
+@media (max-width:590px){
+    .logo{
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+    .navbar ul li{
+        font-size: 8px;
+        padding: 20px 10px;
+    }
+    .btn{
+        padding: 8px;
+        margin: 10px;
+        font-size: 7px;
+    }
+    .topcontainer{
+        height: 40vh;
+    }
+    .img1{
+        height:34vh;
+        margin-top: 1rem;
+        width:34vw;
+    }
+    .box{
+        height: 30vh;
+        margin-top: 10px;
+        margin-left: 2rem;
+    }
+    .box h1{
+        font-size: 14px;
+    }
+    .box p{
+        font-size: 8px;
+        padding: 4px;
+    }
+    .box ul li{
+        font-size: 8px;
+    }
+    .box button{
+        margin-left: 2rem;
+    }
+    .sent p{
+        font-size: 1.4rem;
+        margin:1rem;
+    }
+    .box2 h1{
+        font-size: 1.4rem;
+
+    }
+    .box2 p{
+        font-size: 10px;
+    }
+    .container2{
+        margin-top: 0.4rem;
+    }
+    .footer{
+        margin: 6rem 4rem;
+    }
+    .footer h2{
+        font-size: 1rem;
+    }
+    .footer h6{
+        font-size: 14px;
+    }
+}
